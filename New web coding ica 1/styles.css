@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+  transition: 0.5s;
+}
+.content {
+  background-color: #a27dee;
+  padding: 100px 60px;
+  color: #a27dee;
+}
+.heading {
+    padding-top: 210px;
+     color: white; /* Set text color to white */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    
+}
+.content h2 {
+  font-size: 78px;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  background: linear-gradient(to top, #a27dee, #09002f);
+  overflow: hidden;
+  pointer-events: none;
+}
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #a27dee, transparent);
+  z-index: 100;
+}
+section img {
+  position: absolute;
+}
+#zaamin {
+  width: 100%;
+  bottom: 0;
+  z-index: 12;
+}
+#pyramid {
+  right: 0;
+  width: 75vw;
+  bottom: 90px;
+  z-index: 11;
+}
+#cover {
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+#stone {
+  width: 100%;
+  right: 0;
+  bottom: 30px;
+  z-index: 9;
+}
+#bottom_cloud {
+    width:50%;
+  right: 220px;
+  bottom: 200px;
+}
+#right_cloud {
+  right: -180px;
+  top: 100px;
+}
+#left_cloud {
+  left: -70px;
+  top: 250px;
+  z-index: 4;
+}
+#moon {
+  top: 10px;
+  left: -10px;
+  mix-blend-mode: screen;
+  z-index: 3;
+}
+#sphinx {
+  left: 40px;
+  bottom:0;
+  width:20%;
+  mix-blend-mode: screen;
+}
+#stars {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  #text {
+    left: -100px !important;
+  }
+}
+@media (max-width: 576px) {
+  #text {
+    left: -250px !important;
+    z-index: 10;
+  }
+}
+section#section2 {
+    position: relative; /* Create a positioning context for absolute positioning */
+    background-image: url('https://img.freepik.com/free-vector/ancient-pyramid-egypt-pharaoh-tomb-inside_107791-16167.jpg?w=1380&t=st=1693048339~exp=1693048939~hmac=a6edf232877fdb6c86c013e52c9b2a21c0ae5a775a413c412fcdba19611f28a0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 110vh; /* Adjust this height as needed */
+  }
+  
+  .card {
+    position: absolute;
+    top: 50%; /* Position the card at the vertical center */
+    left: 50%; /* Position the card at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the card precisely */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(232, 231, 231, 0.1), 0 0 20px rgba(227, 227, 228, 0.5); /* Adding a glowing blue shadow */
+}
+  
+  #alien {
+    position: absolute;
+    top: -50px;
+    left: -400px;
+    max-width: 100%;
+  }
+  #alien2 {
+    position: absolute;
+    top: -50px;
+    left: 650px;
+    max-width: 100%;
+  }
+
+  .parallax {
+    background-color: #a27dee;
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+  }
+  .parallax2{
+    background-color: #a27dee;
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+  }
+
+  
+  section#section3 {
+    position: relative; /* Create a positioning context for absolute positioning */
+    background-image: url('pyramid-egypt-night-desert-near-river-landscape_107791-19020 (1) (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 110vh; /* Adjust this height as needed */
+  }
+  #dancing1 {
+    position: absolute;
+    top: -50px;
+    left: -400px;
+    max-width: 90%;
+  }
+  #dancing2 {
+    position: absolute;
+    top: -50px;
+    left: 650px;
+    max-width: 100%;
+  }
+
+  
+  
+  
